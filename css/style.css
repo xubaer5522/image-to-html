@@ -1,0 +1,269 @@
+body{
+	background-color: #99d9ea99;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0px;
+	box-shadow: 0 0px 5px 0;
+}
+/*header*/
+header{
+	background-color: #fff;
+	margin-top: 25px;
+	padding: 10px 0 10px 0;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 4%;
+	float: left;
+	margin-left: 10px;
+}
+.logo img{
+	width: 100%;
+}
+.hed-content{
+	display: inline;
+	margin-left: 10px;
+}
+.hed-content h1{
+	width: 100%;
+	font-family: serif;
+	font-size: 38px;
+	color: #6981a0;
+	display: inline;
+}
+.manu{
+    width: 70%;
+    float: right;
+}
+.manu ul{
+    list-style: none;
+    float: right;
+}
+.manu ul li{
+    float: left;
+}
+.manu ul li a{
+    font-family: serif;
+    font-size: 15px;
+    color: #6981a0;
+    padding: 0px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    transition-duration: .4s;
+}
+.manu ul li a:hover{
+	color: #464240;
+}
+/*header*/
+/*banner*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+}
+.box{
+    width: 30%;
+    background-color: #464545bf;
+    margin-top: 200px;
+    padding: 5px 0px 25px 25px;
+}
+.banner-content{}
+.banner-content h1{
+    font-family: serif;
+    font-weight: 800;
+    color: #ffff;
+    margin-bottom: -10px;
+}
+.banner-about{}
+.banner-about p{
+    font-family: serif;
+    font-size: 20px;
+    color: #ffff;
+    letter-spacing: 1px;
+}
+.banner-button{
+}
+.banner-button button{
+    font-family: serif;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    background-color: #888888;
+    color: #ffff;
+    border: none;
+    transition-duration: .4s;
+}
+.banner-button button:focus{
+	outline: none;
+}
+.banner-button button:hover{
+	background-color: #ffff;
+	color: #6981A0;
+}
+/*banner*/
+/*service*/
+.service{
+    background: #ffff;
+    overflow: hidden;
+}
+.villas{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 50px 20px;
+}
+.villas h2{
+    font-family: serif;
+    font-size: 25px;
+    color: #6981A0;
+}
+.villas img{
+    width: 80%;
+}
+.villas-about{}
+.villas-about p{
+    font-family: serif;
+    font-size: 17px;
+    color: #6981A0;
+    line-height: 26px;
+}
+.villas-button{
+	margin-top: 40px;
+}
+.villas-button button{
+    font-family: serif;
+    padding: 6px 20px;
+    background: #6981A0;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: .5px;
+    transition: .4s;
+}
+.villas-button button:focus{
+	outline: none;
+}
+.villas-button button:hover{
+	background-color: #464240;
+	color: #ffff;
+}
+.services{
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding: 50px 20px;
+}
+.services h2{
+    font-family: serif;
+    font-size: 25px;
+    color: #6981A0;
+}
+.services img{
+    width: 80%;
+}
+.services-about{}
+.services-about p{
+    font-family: serif;
+    font-size: 17px;
+    color: #6981A0;
+    line-height: 26px;
+}
+.services-button{
+	margin-top: 40px;
+}
+.services-button button{
+    font-family: serif;
+    padding: 6px 20px;
+    background: #6981A0;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: .5px;
+    transition: .4s;
+}
+.services-button button:focus{
+	outline: none;
+}
+.services-button button:hover{
+	background-color: #464240;
+	color: #ffff;
+}
+.condos{
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding: 50px 20px;
+}
+.condos h2{
+    font-family: serif;
+    font-size: 25px;
+    color: #6981A0;
+}
+.condos img{
+    width: 80%;
+}
+.condos-about{}
+.condos-about p{
+    font-family: serif;
+    font-size: 17px;
+    color: #6981A0;
+    line-height: 26px;
+}
+.condos-button{
+	margin-top: 40px;
+}
+.condos-button button{
+    font-family: serif;
+    padding: 6px 20px;
+    background: #6981A0;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: .5px;
+    transition: .4s;
+}
+.condos-button button:focus{
+	outline: none;
+}
+.condos-button button:hover{
+	background-color: #464240;
+	color: #ffff;
+}
+/*service*/
+footer{
+    background-color: #ffff;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.footer-copyright{
+}
+.footer-copyright h2{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6981A0;
+}
+.footer-content{}
+.footer-content h3{
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6981A0;
+}
+.footer-img{
+    margin: 20px 0 30px;
+}
+.footer-img img{
+    width: 2%;
+    margin-left: 10px;
+}
